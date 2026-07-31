@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.remoteability.org/employers/#webpage",
+      "url": "https://www.remoteability.org/employers",
+      "name": "Partner With Us | RemoteAbility CIC",
+      "description": "Information for employers, referral partners, funders and commissioners who want to partner with RemoteAbility CIC's Pathway to Independence, supporting homeless, disabled and neurodivergent people while delivering measurable social impact.",
+      "isPartOf": { "@id": "https://www.remoteability.org/#website" },
+      "about": { "@id": "https://www.remoteability.org/employers/#service" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.remoteability.org/woman-headset.png"
+      },
+      "inLanguage": "en-GB",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.remoteability.org/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Partner With Us",
+            "item": "https://www.remoteability.org/employers"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.remoteability.org/employers/#service",
+      "name": "Partnership & Remote Services for Employers, Funders and Referral Partners",
+      "provider": { "@id": "https://www.remoteability.org/#org" },
+      "url": "https://www.remoteability.org/employers",
+      "serviceType": "Remote Sales and AI Systems services; referral partnerships; funded delivery partnerships",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "description": "RemoteAbility CIC partners with employers, referral organisations, and funders/commissioners to deliver the Pathway to Independence — supporting homeless, disabled and neurodivergent people through housing, recovery, employment and self-employment, while providing trained remote teams and measurable social impact reporting.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Ways to Partner With RemoteAbility",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Employer Partnerships",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Remote Sales & AI Systems Services",
+              "description": "Lead generation, appointment setting, and AI-assisted automation delivered by trained remote teams from our Ready and Independent stages."
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Referral Partnerships",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Referral Routes for Housing, Homelessness and Support Organisations",
+              "description": "Referral pathways for councils, Jobcentres, charities and support organisations to refer people who need housing, recovery, benefits or employment support."
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Funder & Commissioner Partnerships",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Commissioned Delivery Against Social Value & Homelessness Outcomes",
+              "description": "Delivery partnerships aligned to the Social Value Act and the National Plan to End Homelessness, with transparent outcome reporting."
+            }
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.remoteability.org/employers#enquire",
+        "availability": "https://schema.org/InStock",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "GBP",
+          "price": "0.00",
+          "description": "Initial discovery call and proposal are provided at no cost. Ongoing work is priced or commissioned per project, retainer, or contract."
+        }
+      }
+    }
+  ]
+}
