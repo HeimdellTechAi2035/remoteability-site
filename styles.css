@@ -513,6 +513,13 @@ section {
   display: flex;
   gap: 0.6rem;
   align-items: flex-start;
+  color: var(--text);
+}
+
+.card .check-list li,
+.module .check-list li,
+.pathway-card .check-list li,
+.hero-eyebrow .check-list li {
   color: #fff;
 }
 
@@ -643,6 +650,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.3rem;
+  align-items: start;
 }
 
 .team-card {
@@ -1225,7 +1233,7 @@ footer {
 }
 
 .proof-text {
-  color: #fff;
+  color: var(--text);
   font-size: 0.9rem;
 }
 
@@ -1393,7 +1401,7 @@ footer {
 .outcome-item strong {
   display: block;
   margin-bottom: 0.5rem;
-  color: #fff;
+  color: var(--text);
   font-size: 1.05rem;
 }
 
@@ -1547,6 +1555,24 @@ footer {
 
   .nav-toggle {
     display: block;
+  }
+
+  .nav-bar {
+    flex-wrap: wrap;
+    row-gap: 0.6rem;
+  }
+
+  .nav-cta {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: auto;
+    gap: 0.5rem;
+  }
+
+  .nav-cta .btn-outline,
+  .nav-cta .btn-primary {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.72rem;
   }
 
   .nav-links.mobile-open {
@@ -1953,7 +1979,7 @@ footer {
 .page-hero {
   padding: 6rem 0 3rem 0;
   background: linear-gradient(135deg, rgba(56,189,248,0.05) 0%, rgba(147,51,234,0.05) 100%);
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(147, 51, 234, 0.2);
 }
 
 .page-hero-content {
@@ -1987,11 +2013,12 @@ footer {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(4, 1fr);
+  align-items: start;
 }
 
 .phase-card-detailed {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 2rem;
 }
@@ -2052,7 +2079,7 @@ footer {
 .phase-duration {
   margin-top: 1.5rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid rgba(147, 51, 234, 0.2);
   font-size: 0.9rem;
   color: #000;
 }
@@ -2060,7 +2087,7 @@ footer {
 /* Access to Work section */
 .atw-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .atw-grid {
@@ -2098,6 +2125,13 @@ footer {
   padding-left: 0;
   margin-bottom: 0.4rem;
   font-size: 0.9rem;
+  color: var(--text);
+}
+
+.card .simple-list li,
+.module .simple-list li,
+.pathway-card .simple-list li,
+.hero-eyebrow .simple-list li {
   color: #fff;
 }
 
@@ -2153,11 +2187,12 @@ footer {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: start;
 }
 
 .diff-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 1.75rem;
   text-align: center;
@@ -2218,18 +2253,19 @@ footer {
 
 .services-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .services-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: start;
 }
 
 .service-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 2rem;
 }
@@ -2275,7 +2311,7 @@ footer {
 .service-use-case {
   padding-top: 1rem;
   margin-top: 1rem;
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid rgba(147, 51, 234, 0.2);
   font-size: 0.85rem;
   color: #000;
 }
@@ -2322,13 +2358,14 @@ footer {
 
 .social-value-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .social-value-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: start;
 }
 
 .testimonial-section {
@@ -2384,8 +2421,8 @@ footer {
 }
 
 .partner-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 2rem;
   text-align: center;
@@ -2465,8 +2502,8 @@ footer {
 }
 
 .sector-item {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 8px;
   padding: 1.5rem;
   flex: 1 1 250px;
@@ -2488,7 +2525,7 @@ footer {
 /* Success stories page */
 .impact-stats {
   padding: 3rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .stats-grid-large {
@@ -2529,8 +2566,8 @@ footer {
 }
 
 .story-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 2.5rem;
 }
@@ -2568,13 +2605,14 @@ footer {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: start;
 }
 
 .story-before,
 .story-journey,
 .story-after {
   padding: 1.5rem;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
   border-radius: 8px;
 }
 
@@ -2606,7 +2644,7 @@ footer {
 
 .themes-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .themes-grid {
@@ -2616,8 +2654,8 @@ footer {
 }
 
 .theme-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 1.75rem;
 }
@@ -2642,6 +2680,7 @@ footer {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: start;
 }
 
 .card-icon {
@@ -2651,7 +2690,7 @@ footer {
 
 .why-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .problem-grid {
@@ -2708,22 +2747,24 @@ footer {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: start;
 }
 
 .team-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .team-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: start;
 }
 
 .team-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 2rem;
 }
@@ -2768,18 +2809,19 @@ footer {
 
 .values-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .values-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: start;
 }
 
 .value-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 1.75rem;
 }
@@ -2844,18 +2886,19 @@ footer {
 
 .faq-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .faq-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: start;
 }
 
 .faq-item {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 8px;
   padding: 1.5rem;
 }
@@ -2900,7 +2943,7 @@ footer {
 .safeguarding-contact {
   margin: 1rem 0;
   padding: 1rem;
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.7);
   border-radius: 6px;
 }
 
@@ -2913,13 +2956,14 @@ footer {
 /* Application page */
 .before-apply-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .eligibility-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: start;
 }
 
 .application-form-section {
@@ -2946,7 +2990,7 @@ footer {
 }
 
 fieldset {
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 8px;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -3014,15 +3058,15 @@ legend {
   gap: 0.75rem;
   cursor: pointer;
   padding: 0.75rem;
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 6px;
   transition: all 0.2s;
 }
 
 .radio-label:hover,
 .checkbox-label:hover {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.7);
   border-color: #000;
 }
 
@@ -3052,7 +3096,7 @@ legend {
 
 .next-steps-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .timeline-horizontal {
@@ -3093,7 +3137,7 @@ legend {
 /* Blog page */
 .featured-post-section {
   padding: 3rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .featured-post {
@@ -3174,7 +3218,7 @@ legend {
 }
 
 .filter-btn {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.7);
   border: 1px solid rgba(255,255,255,0.1);
   color: #000;
   padding: 0.65rem 1.25rem;
@@ -3186,7 +3230,7 @@ legend {
 }
 
 .filter-btn:hover {
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.8);
   border-color: #000;
   color: #000;
 }
@@ -3201,18 +3245,19 @@ legend {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  align-items: start;
 }
 
 .blog-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 2rem;
   transition: all 0.3s;
 }
 
 .blog-card:hover {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.7);
   border-color: #000;
   transform: translateY(-4px);
 }
@@ -3230,7 +3275,7 @@ legend {
   font-size: 1.25rem;
   margin-bottom: 1rem;
   line-height: 1.4;
-  color: #fff;
+  color: var(--text);
 }
 
 .blog-excerpt {
@@ -3245,7 +3290,7 @@ legend {
   justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid rgba(147, 51, 234, 0.2);
 }
 
 .blog-read-more {
@@ -3274,7 +3319,7 @@ legend {
 }
 
 .pagination-btn {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.7);
   border: 1px solid rgba(255,255,255,0.1);
   color: #000;
   padding: 0.65rem 1.25rem;
@@ -3285,7 +3330,7 @@ legend {
 }
 
 .pagination-btn:hover:not(:disabled) {
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.8);
   border-color: #000;
   color: #000;
 }
@@ -3302,7 +3347,7 @@ legend {
 }
 
 .pagination-number {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.7);
   border: 1px solid rgba(255,255,255,0.1);
   color: #000;
   width: 40px;
@@ -3317,7 +3362,7 @@ legend {
 }
 
 .pagination-number:hover {
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.8);
   border-color: #000;
   color: #000;
 }
@@ -3334,7 +3379,7 @@ legend {
 
 .newsletter-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .newsletter-card {
@@ -3377,7 +3422,7 @@ legend {
 .newsletter-input-group input {
   flex: 1;
   padding: 0.85rem 1.25rem;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.8);
   border: 1px solid rgba(255,255,255,0.15);
   border-radius: 8px;
   color: #000;
@@ -3454,7 +3499,7 @@ legend {
 }
 
 .countdown-item {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.7);
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 12px;
   padding: 1.5rem 2rem;
@@ -3498,8 +3543,8 @@ legend {
 .notify-form-wrapper {
   max-width: 500px;
   margin: 0 auto;
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 2.5rem;
 }
@@ -3523,7 +3568,7 @@ legend {
 
 .notify-input-group input {
   padding: 1rem 1.25rem;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.8);
   border: 1px solid rgba(255,255,255,0.15);
   border-radius: 8px;
   color: #000;
@@ -3547,8 +3592,8 @@ legend {
 }
 
 .feature-preview-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 2rem;
   text-align: center;
@@ -3591,7 +3636,7 @@ legend {
 
 .progress-section {
   padding: 5rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .progress-timeline {
@@ -3664,8 +3709,8 @@ legend {
 }
 
 .meanwhile-card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 12px;
   padding: 2rem;
   text-align: center;
@@ -3689,7 +3734,7 @@ legend {
 
 .social-proof-section {
   padding: 4rem 0;
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.55);
 }
 
 .coming-soon-stats {
@@ -3994,14 +4039,14 @@ legend {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(147, 51, 234, 0.2);
   border-radius: 8px;
   overflow: hidden;
 }
 
 .cookie-table thead {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(147, 51, 234, 0.08);
 }
 
 .cookie-table th {
@@ -4009,13 +4054,13 @@ legend {
   text-align: left;
   color: #000;
   font-weight: 600;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(147, 51, 234, 0.2);
 }
 
 .cookie-table td {
   padding: 1rem;
   color: #000;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(147, 51, 234, 0.15);
 }
 
 .cookie-table tr:last-child td {
@@ -4023,8 +4068,8 @@ legend {
 }
 
 .cta-box {
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.1), rgba(147, 51, 234, 0.1));
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.18), rgba(147, 51, 234, 0.18));
+  border: 1px solid rgba(147, 51, 234, 0.25);
   border-radius: 12px;
   padding: 2.5rem;
   text-align: center;

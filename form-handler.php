@@ -5,8 +5,8 @@
  */
 
 // Configuration
-$to_email = "andrew@remoteability.org"; // Change this to your actual email
-$from_email = "andrew@remoteability.org"; // Change to your domain
+$to_email = "contact@remoteability.org.uk"; // Change this to your actual email
+$from_email = "contact@remoteability.org.uk"; // Change to your domain
 $subject_prefix = "RemoteAbility Contact Form: ";
 
 // Spam protection - simple honeypot field (add hidden field in HTML)

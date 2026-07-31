@@ -6,29 +6,32 @@ RemoteAbility CIC does not provide emergency accommodation or clinical rehabilit
 
 ## Key pages
 
-- [Home](https://www.remoteability.org/): Overview of the Pathway to Independence and how to get support, refer someone, or partner.
-- [Our Pathway](https://www.remoteability.org/programmes.html): The four-stage model — Safe, Stable, Ready, Independent — with full detail on what RemoteAbility does at each stage.
-- [I Need Support](https://www.remoteability.org/support.html): For people who are sleeping rough, at risk of homelessness, or in crisis right now. Includes emergency contact numbers and a request-support form.
-- [Refer Someone](https://www.remoteability.org/refer.html): For professionals, support workers, family and friends referring someone to RemoteAbility.
-- [Training & Work](https://www.remoteability.org/training.html): Overview of the free Six-Week Pathway to Independence Programme.
-- [Stage One: Safe and Stable](https://www.remoteability.org/stage-safe-and-stable.html): Weeks 1-2 — needs assessment, housing support, and choosing a progression route.
-- [Stage Two: Ready and Skilled](https://www.remoteability.org/stage-ready-and-skilled.html): Weeks 3-4 — confidence, routine, digital skills, and pathway-specific skills-building.
-- [Stage Three: Work and Independence](https://www.remoteability.org/stage-work-and-independence.html): Weeks 5-6 — real-world job applications, sales and customer outreach, an AI toolkit, and a ninety-day progression plan.
-- [Partner With Us](https://www.remoteability.org/employers.html): For employers, referral partners (councils, charities, housing providers), and funders/commissioners. Current employment partners include Heimdell Tech AI (Sales & Business Development roles) and GreenFix Exterior Care (exterior maintenance roles), who hire graduates of the Pathway to Independence Programme.
-- [About Us](https://www.remoteability.org/about.html): Mission, team, values, and what a Community Interest Company (CIC) is.
-- [Success Stories](https://www.remoteability.org/success-stories.html): Real outcomes from participants who completed the programme.
-- [Apply](https://www.remoteability.org/apply.html): Application form for the Six-Week Pathway to Independence Programme.
-- [Contact](https://www.remoteability.org/contact.html): General enquiries, response times, and safeguarding contact.
+- [Home](https://www.remoteability.org.uk/): Overview of the Pathway to Independence and how to get support, refer someone, or partner.
+- [Our Pathway](https://www.remoteability.org.uk/programmes.html): The four-stage model — Safe, Stable, Ready, Independent — with full detail on what RemoteAbility does at each stage.
+- [I Need Support](https://www.remoteability.org.uk/support.html): For people who are sleeping rough, at risk of homelessness, or in crisis right now. Includes emergency contact numbers and a request-support form.
+- [Refer Someone](https://www.remoteability.org.uk/refer.html): For professionals, support workers, family and friends referring someone to RemoteAbility.
+- [Training & Work](https://www.remoteability.org.uk/training.html): Overview of the free Six-Week Pathway to Independence Programme.
+- [Stage One: Safe and Stable](https://www.remoteability.org.uk/stage-safe-and-stable.html): Weeks 1-2 — needs assessment, housing support, and choosing a progression route.
+- [Stage Two: Ready and Skilled](https://www.remoteability.org.uk/stage-ready-and-skilled.html): Weeks 3-4 — confidence, routine, digital skills, and pathway-specific skills-building.
+- [Stage Three: Work and Independence](https://www.remoteability.org.uk/stage-work-and-independence.html): Weeks 5-6 — real-world job applications, sales and customer outreach, an AI toolkit, and a ninety-day progression plan.
+- [Partner With Us](https://www.remoteability.org.uk/employers.html): For employers, referral partners (councils, charities, housing providers), and funders/commissioners. Current employment partners include Heimdell Tech AI (Sales & Business Development roles) and GreenFix Exterior Care (exterior maintenance roles), who hire graduates of the Pathway to Independence Programme.
+- [About Us](https://www.remoteability.org.uk/about.html): Mission, team, values, and what a Community Interest Company (CIC) is.
+- [Success Stories](https://www.remoteability.org.uk/success-stories.html): Real outcomes from participants who completed the programme.
+- [Apply](https://www.remoteability.org.uk/apply.html): Application form for the Six-Week Pathway to Independence Programme.
+- [Contact](https://www.remoteability.org.uk/contact.html): General enquiries, response times, and safeguarding contact.
 
 ## Policies
 
-- [Privacy Policy](https://www.remoteability.org/privacy-policy.html)
-- [Cookie Policy](https://www.remoteability.org/cookie-policy.html)
-- [Safeguarding Policy](https://www.remoteability.org/safeguarding-policy.html)
+- [Privacy Policy](https://www.remoteability.org.uk/privacy-policy.html)
+- [Cookie Policy](https://www.remoteability.org.uk/cookie-policy.html)
+- [Safeguarding Policy](https://www.remoteability.org.uk/safeguarding-policy.html)
 
 ## Contact
 
-- Email: andrew@remoteability.org
+- General enquiries: contact@remoteability.org.uk
+- Partnerships & outreach: outreach@remoteability.org.uk
+- Data protection / admin: admin@remoteability.org.uk
+- Safeguarding: safeguarding@remoteability.org.uk
 - Phone: +44 7418 008279
 - Location: Preston, Lancashire, United Kingdom
 - Area served: United Kingdom (fully remote)
