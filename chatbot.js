@@ -279,37 +279,17 @@
     document.getElementById('ra-chatbot-launcher').setAttribute('aria-expanded', 'false');
   }
 
-  var AUTO_OPEN_DELAY = 40000;
-  var autoOpenTimer = null;
-
-  function cancelAutoOpen() {
-    if (autoOpenTimer) {
-      clearTimeout(autoOpenTimer);
-      autoOpenTimer = null;
-    }
-  }
-
   function init() {
     buildWidget();
 
     document.getElementById('ra-chatbot-launcher').addEventListener('click', function () {
-      cancelAutoOpen();
       var panel = document.getElementById('ra-chatbot-panel');
       if (panel.hidden) { openPanel(); } else { closePanel(); }
     });
 
     document.getElementById('ra-chatbot-close').addEventListener('click', function () {
-      cancelAutoOpen();
       closePanel();
     });
-
-    autoOpenTimer = setTimeout(function () {
-      autoOpenTimer = null;
-      var panel = document.getElementById('ra-chatbot-panel');
-      if (panel && panel.hidden) {
-        openPanel();
-      }
-    }, AUTO_OPEN_DELAY);
 
     document.getElementById('ra-chatbot-quote-prev').addEventListener('click', function () {
       prevQuote();

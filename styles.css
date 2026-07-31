@@ -4161,6 +4161,10 @@ legend {
   border: 1px solid rgba(147, 51, 234, 0.2);
 }
 
+#ra-chatbot-panel[hidden] {
+  display: none !important;
+}
+
 .chatbot-header {
   background: linear-gradient(135deg, rgba(15, 23, 42, 0.97), rgba(15, 23, 42, 0.99));
   color: #fff;
