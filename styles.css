@@ -68,15 +68,15 @@ a:hover { text-decoration: underline; }
 
 .bg-flag {
   position: fixed;
-  bottom: -12%;
-  right: -8%;
-  width: 62vw;
-  max-width: 900px;
+  bottom: -8%;
+  right: -6%;
+  width: 95vw;
+  max-width: 1500px;
   aspect-ratio: 2 / 1;
   background-image: url('union-jack.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.05;
+  opacity: 0.09;
   transform: rotate(-8deg);
   z-index: -3;
   pointer-events: none;
@@ -418,7 +418,7 @@ section {
 }
 
 .metric-label {
-  color: var(--muted);
+  color: #93C5FD;
   font-size: 0.7rem;
   margin-bottom: 0.35rem;
 }
@@ -426,6 +426,7 @@ section {
 .metric-value {
   font-size: 1.05rem;
   font-weight: 650;
+  color: #fff;
 }
 
 .metric-footnote {
@@ -538,6 +539,13 @@ section {
   color: #fff;
 }
 
+.card .check-bullet,
+.module .check-bullet,
+.pathway-card .check-bullet,
+.hero-eyebrow .check-bullet {
+  color: #fff;
+}
+
 .check-bullet {
   width: 16px;
   height: 16px;
@@ -599,7 +607,7 @@ section {
   border: 1px solid rgba(148, 163, 184, 0.55);
   background: rgba(15, 23, 42, 0.92);
   font-size: 0.72rem;
-  color: var(--muted);
+  color: #93C5FD;
 }
 
 .badge-dot {
@@ -1401,7 +1409,7 @@ footer {
   content: '→';
   position: absolute;
   left: 0;
-  color: var(--accent);
+  color: #93C5FD;
 }
 
 .outcome-grid {
@@ -1430,6 +1438,16 @@ footer {
   margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.social-proof .outcome-item strong,
+.card .outcome-item strong {
+  color: #fff;
+}
+
+.social-proof .outcome-item p,
+.card .outcome-item p {
+  color: #93C5FD;
 }
 
 .training-sidebar {
@@ -2039,7 +2057,7 @@ footer {
 .phase-badge {
   display: inline-block;
   background: linear-gradient(135deg, var(--accent), #012169);
-  color: #000;
+  color: #fff;
   padding: 0.35rem 0.85rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -2120,7 +2138,7 @@ footer {
 .atw-category h4 {
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  color: var(--accent);
+  color: #93C5FD;
 }
 
 .simple-list {
@@ -2142,6 +2160,13 @@ footer {
 .pathway-card .simple-list li,
 .hero-eyebrow .simple-list li {
   color: #fff;
+}
+
+.card .simple-list li::before,
+.module .simple-list li::before,
+.pathway-card .simple-list li::before,
+.hero-eyebrow .simple-list li::before {
+  color: #93C5FD;
 }
 
 .simple-list li::before {
@@ -2168,6 +2193,7 @@ footer {
   height: 36px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), #012169);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2348,6 +2374,7 @@ footer {
   height: 48px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), #012169);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2592,7 +2619,7 @@ footer {
 
 .story-pathway {
   background: linear-gradient(135deg, var(--accent), #012169);
-  color: #000;
+  color: #fff;
   padding: 0.35rem 0.85rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -2781,7 +2808,7 @@ footer {
 .team-role {
   display: inline-block;
   background: linear-gradient(135deg, var(--accent), #012169);
-  color: #000;
+  color: #fff;
   padding: 0.35rem 0.85rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -2880,11 +2907,11 @@ footer {
   display: block;
   margin-bottom: 0.25rem;
   font-size: 0.9rem;
-  color: #000;
+  color: #fff;
 }
 
 .contact-item a {
-  color: var(--accent);
+  color: #93C5FD;
   text-decoration: none;
   font-size: 0.95rem;
 }
@@ -2947,6 +2974,11 @@ footer {
 
 .safeguarding-card h3 {
   margin-bottom: 1rem;
+  color: #000;
+}
+
+.safeguarding-card p {
+  color: #000;
 }
 
 .safeguarding-contact {
@@ -3125,6 +3157,7 @@ legend {
   margin: 0 auto 1rem auto;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), #012169);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3160,7 +3193,7 @@ legend {
 .featured-badge {
   display: inline-block;
   background: linear-gradient(135deg, var(--accent), #012169);
-  color: #000;
+  color: #fff;
   padding: 0.4rem 1rem;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -3247,7 +3280,7 @@ legend {
 .filter-btn.active {
   background: linear-gradient(135deg, var(--accent), #012169);
   border-color: transparent;
-  color: #000;
+  color: #fff;
 }
 
 .blog-grid {
@@ -3379,7 +3412,7 @@ legend {
 .pagination-number.active {
   background: linear-gradient(135deg, var(--accent), #012169);
   border-color: transparent;
-  color: #000;
+  color: #fff;
 }
 
 .pagination-dots {
@@ -3473,7 +3506,7 @@ legend {
 .coming-soon-badge {
   display: inline-block;
   background: linear-gradient(135deg, var(--accent), #012169);
-  color: #000;
+  color: #fff;
   padding: 0.5rem 1.25rem;
   border-radius: 30px;
   font-size: 0.95rem;
@@ -3635,7 +3668,7 @@ legend {
 
 .feature-status.launching {
   background: linear-gradient(135deg, var(--accent), #012169);
-  color: #000;
+  color: #fff;
 }
 
 .feature-status.planning {
@@ -3680,7 +3713,7 @@ legend {
 
 .progress-item.in-progress .progress-marker {
   background: linear-gradient(135deg, var(--accent), #012169);
-  color: #000;
+  color: #fff;
 }
 
 .progress-item.upcoming .progress-marker {
@@ -3979,7 +4012,7 @@ legend {
 }
 
 .cookie-banner-footer a {
-  color: var(--accent);
+  color: #93C5FD;
   text-decoration: underline;
 }
 
