@@ -87,9 +87,9 @@ a:hover { text-decoration: underline; }
   width: 100%;
   background: linear-gradient(
     to right,
-    #012169 0%, #012169 33.3%,
+    #C8102E 0%, #C8102E 33.3%,
     #ffffff 33.3%, #ffffff 66.6%,
-    #C8102E 66.6%, #C8102E 100%
+    #012169 66.6%, #012169 100%
   );
 }
 
@@ -1262,7 +1262,7 @@ footer {
 }
 
 .proof-text {
-  color: var(--text);
+  color: #93C5FD;
   font-size: 0.9rem;
 }
 
