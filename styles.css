@@ -1175,30 +1175,20 @@ footer {
 }
 
 .process-timeline {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
 }
 
-.process-timeline::before {
-  content: '';
-  position: absolute;
-  top: 40px;
-  left: 10%;
-  right: 10%;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  opacity: 0.3;
-  z-index: 0;
-}
-
 .process-step {
   position: relative;
   z-index: 1;
   text-align: center;
+  flex: 0 1 240px;
 }
 
 .process-number {
@@ -1550,14 +1540,9 @@ footer {
   .three-col-grid,
   .team-grid,
   .pathway-grid,
-  .process-timeline,
   .proof-grid,
   .phase-grid-detailed {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .process-timeline::before {
-    display: none;
   }
 
   /* Typography */
@@ -1786,10 +1771,6 @@ footer {
 
   /* Timeline */
   .timeline-horizontal {
-    grid-template-columns: 1fr;
-  }
-
-  .process-timeline {
     grid-template-columns: 1fr;
   }
 
