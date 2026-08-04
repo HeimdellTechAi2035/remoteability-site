@@ -246,6 +246,10 @@ header {
   cursor: pointer;
 }
 
+.cta-label-short {
+  display: none;
+}
+
 main {
   padding-bottom: 4rem;
 }
@@ -1582,23 +1586,43 @@ footer {
   }
 
   .nav-bar {
-    flex-wrap: wrap;
-    row-gap: 0.6rem;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+
+  .brand {
+    gap: 0.5rem;
+    flex-shrink: 0;
   }
 
   .nav-cta {
-    flex: 1 1 100%;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
     align-items: center;
-    margin-left: 0;
-    gap: 0.5rem;
+    margin-left: auto;
+    gap: 0.3rem;
+    min-width: 0;
   }
 
   .nav-cta .btn-outline,
   .nav-cta .btn-primary {
-    padding: 0.5rem 0.8rem;
-    font-size: 0.72rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.78rem;
+  }
+
+  .cta-label-full {
+    display: none;
+  }
+
+  .cta-label-short {
+    display: inline;
+  }
+
+  .nav-toggle {
+    font-size: 1rem;
+    padding: 0.2rem;
+    flex-shrink: 0;
   }
 
   .nav-links.mobile-open {
@@ -1691,13 +1715,13 @@ footer {
   }
 
   .brand-mark {
-    width: 44px;
-    height: 44px;
+    width: 34px;
+    height: 34px;
   }
 
   .brand-flag {
-    width: 24px;
-    height: 15px;
+    width: 20px;
+    height: 13px;
   }
 
   /* Typography */
