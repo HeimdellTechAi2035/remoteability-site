@@ -82,8 +82,48 @@
       answer: "No experience or qualifications are needed. The Six-Week Pathway to Independence Programme is designed for complete beginners, with full support for homeless, disabled and neurodivergent learners."
     },
     {
+      keywords: ['what is unleashed', 'unleashed', 'mobile smash', 'break stuff do good', 'smash event'],
+      answer: "UNLEASHED is RemoteAbility's travelling mobile smash-event attraction — three throwing lanes, approved smashable targets, and a lot of energy, appearing at festivals, rallies, fairs and shows across the UK. It isn't a rage room and it isn't a fixed venue — it's a mobile attraction that travels to events. <a href=\"unleashed.html\">Find out more →</a>"
+    },
+    {
+      keywords: ['rage room', 'is unleashed a rage room'],
+      answer: "No — UNLEASHED is a mobile event attraction, not a rage room. It travels to festivals, rallies, fairs and shows rather than operating from a fixed venue. <a href=\"unleashed.html\">Learn more about UNLEASHED →</a>"
+    },
+    {
+      keywords: ['find unleashed', 'unleashed event', 'unleashed near me', 'unleashed dates', 'when is unleashed'],
+      answer: "Confirmed UNLEASHED dates are listed on the Upcoming Events section of the UNLEASHED page as they're arranged. <a href=\"unleashed.html#events\">Check upcoming events →</a>"
+    },
+    {
+      keywords: ['book unleashed', 'hire unleashed', 'unleashed for my event', 'bring unleashed'],
+      answer: "You can request UNLEASHED for your event using our event organiser enquiry form — tell us about your festival, rally, fair, show or community event and we'll get back to you. Submitting the form registers your enquiry, it doesn't confirm a booking. <a href=\"unleashed-book.html\">Book UNLEASHED →</a>"
+    },
+    {
+      keywords: ['seasonal events', 'unleashed seasons', 'unleashed through the year', 'unleashed campaigns'],
+      answer: "UNLEASHED runs different seasonal formats through the year, including Smash the Pumpkins (October), Bonfire Bash (November), Winter Wreckage (Nov/Dec), New Year Unleashed, Heartbreakers, Easter Smash, Spring Smash, Summer Unleashed and a biker/rally version. <a href=\"unleashed.html#seasonal\">See all seasonal experiences →</a>"
+    },
+    {
+      keywords: ['smash the pumpkins', 'pumpkins', 'halloween unleashed'],
+      answer: "Smash the Pumpkins is UNLEASHED's Halloween campaign — orange, black and red branding, pumpkin and Halloween graphics, running through October. <a href=\"unleashed.html#seasonal\">See it on the UNLEASHED page →</a>"
+    },
+    {
+      keywords: ['bonfire bash', 'bonfire night unleashed'],
+      answer: "Bonfire Bash is UNLEASHED's Bonfire Night format — fire and firework-style graphics, but no real explosives, fireworks or fire inside the attraction. Same approved targets as always. <a href=\"unleashed.html#seasonal\">More on the UNLEASHED page →</a>"
+    },
+    {
+      keywords: ['winter wreckage', 'naughty list', 'christmas unleashed'],
+      answer: "Winter Wreckage is UNLEASHED's Christmas and winter-fair format, with festive lighting and winter graphics — including The Naughty List, where you can write something lighthearted you want to leave behind before you smash it. <a href=\"unleashed.html#seasonal\">More on the UNLEASHED page →</a>"
+    },
+    {
+      keywords: ['unleashed money', 'unleashed help remoteability', 'how does unleashed money help', 'unleashed fundraising', 'mobile food project'],
+      answer: "Income from UNLEASHED helps RemoteAbility create paid work and supported opportunities, and helps fund new social-enterprise projects — including a planned mobile food project intended to eventually help provide hot meals for people experiencing financial hardship. <a href=\"unleashed.html#purpose\">Read more about the purpose →</a>"
+    },
+    {
+      keywords: ['unleashed accessible', 'unleashed accessibility', 'unleashed access'],
+      answer: "Accessibility arrangements may vary by UNLEASHED event and venue. Contact RemoteAbility before attending if you'd like to discuss access requirements or reasonable adjustments. <a href=\"contact.html\">Contact us →</a>"
+    },
+    {
       keywords: ['hello', 'hi', 'hey', 'good morning', 'good afternoon'],
-      answer: "Hello! I'm the RemoteAbility assistant. I can answer questions about our Pathway to Independence, training programme, how to apply, refer someone, or partner with us. What would you like to know?"
+      answer: "Hello! I'm the RemoteAbility assistant. I can answer questions about our Pathway to Independence, training programme, applying, referring someone, partnering with us — or UNLEASHED, our mobile smash-event social enterprise. What would you like to know?"
     },
     {
       keywords: ['thank', 'thanks', 'cheers', 'appreciate'],
@@ -91,7 +131,7 @@
     }
   ];
 
-  var FALLBACK = "I'm not sure I've got the right answer for that. You can ask me about the Pathway to Independence, the training programme, applying, referring someone, partnering with us, or contact details — or <a href=\"contact.html\">contact the team directly</a> and a person will help. If this is urgent, use the Emergency Help button above.";
+  var FALLBACK = "I'm not certain about that one. You can ask me about the Pathway to Independence, the training programme, applying, referring someone, partnering with us, UNLEASHED, or contact details — or <a href=\"contact.html\">send the RemoteAbility team a message</a> and we'll help. If this is urgent, use the Emergency Help button above.";
 
   var QUOTES = [
     "Every step forward counts, no matter how small.",
@@ -110,8 +150,9 @@
     'Who is eligible?',
     'What is the Pathway to Independence?',
     'I need help right now',
+    'What is UNLEASHED?',
+    'Book UNLEASHED',
     'How do I apply?',
-    'Is it free?',
     'How do I refer someone?'
   ];
 
@@ -242,7 +283,7 @@
     panel.hidden = false;
     launcher.setAttribute('aria-expanded', 'true');
     if (!panel.dataset.greeted) {
-      addMessage("Hi, I'm the RemoteAbility assistant. I can help with questions about our Pathway to Independence, training, applying, referring someone, or partnering with us. If this is urgent, tap \"Emergency & Urgent Help\" above.", 'bot');
+      addMessage("Hi, I'm the RemoteAbility assistant. I can help with questions about our Pathway to Independence, training, applying, referring someone, partnering with us, or UNLEASHED (our mobile smash-event social enterprise). If this is urgent, tap \"Emergency & Urgent Help\" above.", 'bot');
       renderQuickReplies();
       panel.dataset.greeted = 'true';
     }

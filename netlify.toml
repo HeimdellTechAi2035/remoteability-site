@@ -1,2 +1,17 @@
 [build]
   publish = "."
+
+[[redirects]]
+  from = "/unleashed"
+  to = "/unleashed.html"
+  status = 200
+
+[[redirects]]
+  from = "/unleashed/book"
+  to = "/unleashed-book.html"
+  status = 200
+
+[[redirects]]
+  from = "/unleashed/thank-you"
+  to = "/unleashed-thank-you.html"
+  status = 200
