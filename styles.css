@@ -4783,14 +4783,17 @@ legend {
 }
 
 .unleashed-campaigns-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.25rem;
   margin-bottom: 2.5rem;
 }
 
 .unleashed-campaign-card {
   position: relative;
+  flex: 1 1 240px;
+  max-width: 320px;
   border-radius: var(--radius-lg);
   padding: 1.5rem 1.4rem;
   background: rgba(255, 255, 255, 0.05);
@@ -4882,12 +4885,15 @@ legend {
 }
 
 .unleashed-events-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.25rem;
 }
 
 .unleashed-event-card {
+  flex: 1 1 260px;
+  max-width: 340px;
   border-radius: var(--radius-lg);
   padding: 1.5rem;
   background: rgba(255, 255, 255, 0.05);
@@ -5144,12 +5150,15 @@ legend {
 
 /* Icon cards — Perfect For / Where The Money Goes */
 .unleashed-icon-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
 .unleashed-icon-card {
+  flex: 1 1 150px;
+  max-width: 200px;
   text-align: center;
   padding: 1.25rem 0.75rem;
   border-radius: 14px;
@@ -5177,14 +5186,17 @@ legend {
 
 /* Structure spec strip */
 .unleashed-spec-strip {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
   max-width: 760px;
   margin: 0 auto 1.5rem;
 }
 
 .unleashed-spec-item {
+  flex: 1 1 140px;
+  max-width: 180px;
   text-align: center;
   padding: 1rem 0.75rem;
   border-radius: 12px;
@@ -5294,10 +5306,16 @@ legend {
 }
 
 .unleashed-benefits-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
   margin-top: 2rem;
+}
+
+.unleashed-benefits-grid .unleashed-benefit-card {
+  flex: 1 1 220px;
+  max-width: 320px;
 }
 
 .unleashed-benefit-card {
@@ -5319,10 +5337,16 @@ legend {
 }
 
 .unleashed-event-type-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 0.6rem;
   margin: 1.5rem 0 2rem;
+}
+
+.unleashed-event-type-grid .unleashed-event-type-pill {
+  flex: 1 1 180px;
+  max-width: 260px;
 }
 
 .unleashed-event-type-pill {
@@ -5332,6 +5356,20 @@ legend {
   border: 1px solid rgba(1, 33, 105, 0.18);
   font-size: 0.85rem;
   text-align: center;
+}
+
+.unleashed-key-features-list {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem 2rem;
+}
+
+.unleashed-key-features-list li {
+  flex: 1 1 260px;
+  max-width: 300px;
 }
 
 .unleashed-form-note {
