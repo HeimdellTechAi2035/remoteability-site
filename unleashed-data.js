@@ -405,6 +405,11 @@
         id: 'volunteer',
         q: 'Can I volunteer or work with the project?',
         a: 'Yes — get in touch via the RemoteAbility contact page and let us know what you’re interested in.'
+      },
+      {
+        id: 'archery-axes',
+        q: 'Is there archery or axe throwing?',
+        a: 'We’re developing a supervised archery and axe-throwing lane as a future UNLEASHED experience — professional equipment, a full safety briefing for every participant, and staff supervision throughout. It isn’t live yet; pricing, age requirements and availability will be confirmed before launch.'
       }
     ]
   };
