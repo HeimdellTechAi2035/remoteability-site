@@ -1,37 +1,30 @@
 # RemoteAbility CIC
 
-> RemoteAbility CIC is a UK Community Interest Company based in Preston, Lancashire, that supports homeless, disabled and neurodivergent people, and people recovering from addiction, through a four-stage Pathway to Independence: Safe, Stable, Ready, Independent. RemoteAbility provides active, person-centred navigation and advocacy — not just signposting — to help people access housing, recovery, benefits and employment services, culminating in a free Six-Week Pathway to Independence training programme covering digital skills, AI tools and self-employment support, leading to employment, freelancing, self-employment or business ownership.
+> RemoteAbility CIC (Companies House 16817651) is a UK Community Interest Company based in Preston, Lancashire. It supports homeless, disabled and neurodivergent people, and people recovering from addiction, through a four-stage Pathway to Independence: Safe, Stable, Ready, Independent. It provides active, person-centred navigation and advocacy (not just signposting) into housing, recovery, benefits and employment services, and a free Six-Week Pathway to Independence programme covering digital skills, safe AI use and self-employment support. It also runs UNLEASHED, a mobile rage-room-style smash attraction for events, as a social enterprise.
 
-RemoteAbility CIC does not provide emergency accommodation or clinical rehabilitation directly. It helps people access the right services, complete referrals and applications, overcome barriers, and remain supported throughout their journey towards housing, recovery, work and independence.
+RemoteAbility CIC does not provide emergency accommodation or clinical rehabilitation directly. It helps people access the right services, complete referrals and applications, and stay supported.
 
-## Key pages
+## Get help
+- I need support (sleeping rough, at risk of homelessness, in crisis): https://remoteability.org.uk/support.html
+- Refer someone: https://remoteability.org.uk/refer.html
+- Apply for the six-week programme: https://remoteability.org.uk/apply.html
 
-- [Home](https://www.remoteability.org.uk/): Overview of the Pathway to Independence and how to get support, refer someone, or partner.
-- [Our Pathway](https://www.remoteability.org.uk/programmes.html): The four-stage model — Safe, Stable, Ready, Independent — with full detail on what RemoteAbility does at each stage.
-- [I Need Support](https://www.remoteability.org.uk/support.html): For people who are sleeping rough, at risk of homelessness, or in crisis right now. Includes emergency contact numbers and a request-support form.
-- [Refer Someone](https://www.remoteability.org.uk/refer.html): For professionals, support workers, family and friends referring someone to RemoteAbility.
-- [Training & Work](https://www.remoteability.org.uk/training.html): Overview of the free Six-Week Pathway to Independence Programme.
-- [Stage One: Safe and Stable](https://www.remoteability.org.uk/stage-safe-and-stable.html): Weeks 1-2 — needs assessment, housing support, and choosing a progression route.
-- [Stage Two: Ready and Skilled](https://www.remoteability.org.uk/stage-ready-and-skilled.html): Weeks 3-4 — confidence, routine, digital skills, and pathway-specific skills-building.
-- [Stage Three: Work and Independence](https://www.remoteability.org.uk/stage-work-and-independence.html): Weeks 5-6 — real-world job applications, sales and customer outreach, an AI toolkit, and a ninety-day progression plan.
-- [Partner With Us](https://www.remoteability.org.uk/employers.html): For employers, referral partners (councils, charities, housing providers), and funders/commissioners. Current employment partners include Heimdell Tech AI (Sales & Business Development roles) and GreenFix Exterior Care (exterior maintenance roles), who hire graduates of the Pathway to Independence Programme.
-- [About Us](https://www.remoteability.org.uk/about.html): Mission, team, values, and what a Community Interest Company (CIC) is.
-- [Success Stories](https://www.remoteability.org.uk/success-stories.html): Real outcomes from participants who completed the programme.
-- [Apply](https://www.remoteability.org.uk/apply.html): Application form for the Six-Week Pathway to Independence Programme.
-- [Contact](https://www.remoteability.org.uk/contact.html): General enquiries, response times, and safeguarding contact.
+## About the work
+- Pathway to Independence (four stages): https://remoteability.org.uk/programmes.html
+- Six-Week Pathway to Independence programme: https://remoteability.org.uk/training.html
+- Stage pages: https://remoteability.org.uk/stage-safe-and-stable.html · https://remoteability.org.uk/stage-ready-and-skilled.html · https://remoteability.org.uk/stage-work-and-independence.html
+- Success stories: https://remoteability.org.uk/success-stories.html
+- About and team: https://remoteability.org.uk/about.html
+- Safeguarding policy: https://remoteability.org.uk/safeguarding-policy.html
 
-## Policies
+## Partners, employers and funders
+- Partner with us: https://remoteability.org.uk/employers.html
 
-- [Privacy Policy](https://www.remoteability.org.uk/privacy-policy.html)
-- [Cookie Policy](https://www.remoteability.org.uk/cookie-policy.html)
-- [Safeguarding Policy](https://www.remoteability.org.uk/safeguarding-policy.html)
+## UNLEASHED (mobile rage room attraction)
+UNLEASHED is a travelling, staffed, three-lane rage-room-style attraction: players throw reusable hard rubber balls from behind a barrier at approved smashable targets in a contained area. It's available for festivals, rallies, fairs, shows, universities and corporate events. Income supports RemoteAbility's work and a planned mobile food project.
+- About UNLEASHED: https://remoteability.org.uk/unleashed
+- Book UNLEASHED: https://remoteability.org.uk/unleashed-book
 
 ## Contact
-
-- General enquiries: contact@remoteability.org.uk
-- Partnerships & outreach: outreach@remoteability.org.uk
-- Data protection / admin: admin@remoteability.org.uk
-- Safeguarding: safeguarding@remoteability.org.uk
-- Phone: +44 7418 008279
-- Location: Preston, Lancashire, United Kingdom
-- Area served: United Kingdom (fully remote)
+contact@remoteability.org.uk · +44 7418 008279 · safeguarding@remoteability.org.uk · Preston, Lancashire
+Contact page: https://remoteability.org.uk/contact.html

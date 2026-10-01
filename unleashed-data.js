@@ -38,7 +38,7 @@
 
       organisation: {
         name: 'RemoteAbility CIC',
-        url: 'https://www.remoteability.org.uk/'
+        url: 'https://remoteability.org.uk/'
       },
 
       // Reuses RemoteAbility's existing, verified contact details —
@@ -61,7 +61,7 @@
       },
 
       booking: {
-        pageUrl: 'unleashed-book.html',
+        pageUrl: '/unleashed-book',
         thankYouUrl: 'unleashed-thank-you.html',
         netlifyFormName: 'unleashed-event-enquiry'
       },
@@ -324,7 +324,17 @@
       {
         id: 'rage-room',
         q: 'Is UNLEASHED a rage room?',
-        a: 'No. UNLEASHED is a mobile event attraction that travels to events — it isn’t a fixed venue, and it isn’t a rage room.'
+        a: 'It\'s a mobile, rage-room-style attraction. Instead of smashing things by hand in a closed room, players throw reusable hard rubber balls from behind a barrier at approved smashable targets inside a contained, roofed target area.'
+      },
+      {
+        id: 'events-rage-room',
+        q: 'What events can book a mobile rage room like UNLEASHED?',
+        a: 'Motorcycle festivals and rallies, bike nights, car shows, music and community festivals, fairs, carnivals and county shows, Christmas markets, Bonfire Night and Halloween events, universities, and corporate and charity events.'
+      },
+      {
+        id: 'is-it-safe',
+        q: 'Is it safe?',
+        a: 'Yes. Players stay outside a controlled throwing line, the target area is contained at the back, sides and roof, only approved targets are used, and the attraction is staffed and supervised throughout.'
       },
       {
         id: 'where-operate',
@@ -378,8 +388,13 @@
       },
       {
         id: 'money',
-        q: 'What happens to the money?',
-        a: 'It goes toward four things: the Mobile Food Project, paid work opportunities, hot evening meals for people experiencing financial hardship, and training & support — all part of RemoteAbility CIC’s wider social-enterprise work.'
+        q: 'Where does the money go?',
+        a: 'UNLEASHED is RemoteAbility CIC\'s social enterprise. Income helps create paid and supported opportunities and is raising money towards a mobile food project that will provide work, training and hot evening meals for people in financial hardship.'
+      },
+      {
+        id: 'travel-outside-lancashire',
+        q: 'Do you travel outside Lancashire?',
+        a: 'UNLEASHED is designed to travel to suitable events across the UK. Tell us your location when you enquire.'
       },
       {
         id: 'what-is-remoteability',
