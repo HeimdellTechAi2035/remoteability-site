@@ -123,15 +123,15 @@
     },
     {
       keywords: ['unleashed cost', 'unleashed price', 'unleashed pricing', 'how much is unleashed', 'how much does unleashed cost', 'cost of unleashed', 'price of unleashed', 'unleashed throws cost'],
-      answer: "3 Throws for £5, 7 Throws for £10, or go all in with Total Unleashed for £20. Pricing may be adjusted for specific events, so check on the day. <a href=\"/unleashed\">More about UNLEASHED →</a>"
+      answer: "UNLEASHED costs £20 per person (ages 16+). Pricing may be adjusted for specific events, so check on the day. <a href=\"/unleashed\">More about UNLEASHED →</a>"
     },
     {
       keywords: ['how many throws', 'unleashed throws', 'number of throws'],
-      answer: "Choose your package: 3 Throws (£5), 7 Throws (£10), or Total Unleashed (£20) for the full experience."
+      answer: "UNLEASHED costs £20 per person. Staff will explain how it works on the day."
     },
     {
-      keywords: ['unleashed children', 'unleashed kids', 'unleashed age', 'can kids do unleashed', 'unleashed under 12', 'is unleashed safe for children'],
-      answer: "Yes — UNLEASHED is safe for all ages, but under 12s must be supervised by an adult at all times."
+      keywords: ['unleashed children', 'unleashed kids', 'unleashed age', 'unleashed age limit', 'can kids do unleashed', 'unleashed under 16', 'is unleashed safe for children'],
+      answer: "UNLEASHED has a 16+ age limit, so under-16s can't take part. It costs £20 per person."
     },
     {
       keywords: ['archery', 'axe throwing', 'axe throw', 'throw axes', 'bow and arrow unleashed'],
