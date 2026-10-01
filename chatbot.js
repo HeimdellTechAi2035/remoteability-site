@@ -43,7 +43,7 @@
     },
     {
       keywords: ['partner', 'employer', 'hire', 'funder', 'commissioner', 'business', 'work with you', 'sponsor'],
-      answer: "We partner with employers, referral organisations (councils, charities, housing providers) and funders/commissioners. Current employment partners include Heimdell Tech AI (Sales roles) and GreenFix Exterior Care (exterior maintenance roles). <a href=\"employers.html\">See Partner With Us →</a>"
+      answer: "We partner with employers, referral organisations (councils, charities, housing providers) and funders/commissioners. Our first employer partners include Heimdell Tech AI (Sales roles) and GreenFix Exterior Care (exterior maintenance roles), businesses founded by RemoteAbility's founder. <a href=\"employers.html\">See Partner With Us →</a>"
     },
     {
       keywords: ['contact', 'email', 'phone number', 'call you', 'get in touch', 'reach you'],
@@ -83,39 +83,39 @@
     },
     {
       keywords: ['what is unleashed', 'unleashed', 'mobile smash', 'break stuff do good', 'smash event'],
-      answer: "UNLEASHED is RemoteAbility's travelling mobile smash-event attraction — three throwing lanes, approved smashable targets, and a lot of energy, appearing at festivals, rallies, fairs and shows across the UK. It isn't a rage room and it isn't a fixed venue — it's a mobile attraction that travels to events. <a href=\"unleashed.html\">Find out more →</a>"
+      answer: "UNLEASHED is a travelling, rage-room-style smash attraction run by RemoteAbility CIC. Instead of a closed room, it's a three-lane, fully staffed set-up: players throw reusable hard rubber balls from behind a barrier at approved smashable targets. It comes to festivals, rallies, fairs and shows, and every booking supports RemoteAbility. <a href=\"/unleashed\">Find out more →</a>"
     },
     {
       keywords: ['rage room', 'is unleashed a rage room'],
-      answer: "No — UNLEASHED is a mobile event attraction, not a rage room. It travels to festivals, rallies, fairs and shows rather than operating from a fixed venue. <a href=\"unleashed.html\">Learn more about UNLEASHED →</a>"
+      answer: "It's a mobile, rage-room-style attraction. Instead of smashing things by hand in a closed room, players throw reusable hard rubber balls from behind a barrier at approved smashable targets inside a contained, roofed target area. <a href=\"/unleashed\">Learn more about UNLEASHED →</a>"
     },
     {
       keywords: ['find unleashed', 'unleashed event', 'unleashed near me', 'unleashed dates', 'when is unleashed'],
-      answer: "Confirmed UNLEASHED dates are listed on the Upcoming Events section of the UNLEASHED page as they're arranged. <a href=\"unleashed.html#events\">Check upcoming events →</a>"
+      answer: "Confirmed UNLEASHED dates are listed on the Upcoming Events section of the UNLEASHED page as they're arranged. <a href=\"/unleashed#events\">Check upcoming events →</a>"
     },
     {
       keywords: ['book unleashed', 'hire unleashed', 'unleashed for my event', 'bring unleashed'],
-      answer: "You can request UNLEASHED for your event using our event organiser enquiry form — tell us about your festival, rally, fair, show or community event and we'll get back to you. Submitting the form registers your enquiry, it doesn't confirm a booking. <a href=\"unleashed-book.html\">Book UNLEASHED →</a>"
+      answer: "You can request UNLEASHED for your event using our event organiser enquiry form — tell us about your festival, rally, fair, show or community event and we'll get back to you. Submitting the form registers your enquiry, it doesn't confirm a booking. <a href=\"/unleashed-book\">Book UNLEASHED →</a>"
     },
     {
       keywords: ['seasonal events', 'unleashed seasons', 'unleashed through the year', 'unleashed campaigns'],
-      answer: "UNLEASHED runs different seasonal formats through the year, including Smash the Pumpkins (October), Bonfire Bash (November), Winter Wreckage (Nov/Dec), New Year Unleashed, Heartbreakers, Easter Smash, Spring Smash, Summer Unleashed and a biker/rally version. <a href=\"unleashed.html#seasonal\">See all seasonal experiences →</a>"
+      answer: "UNLEASHED runs different seasonal formats through the year, including Smash the Pumpkins (October), Bonfire Bash (November), Winter Wreckage (Nov/Dec), New Year Unleashed, Heartbreakers, Easter Smash, Spring Smash, Summer Unleashed and a biker/rally version. <a href=\"/unleashed#seasonal\">See all seasonal experiences →</a>"
     },
     {
       keywords: ['smash the pumpkins', 'pumpkins', 'halloween unleashed'],
-      answer: "Smash the Pumpkins is UNLEASHED's Halloween campaign — orange, black and red branding, pumpkin and Halloween graphics, running through October. <a href=\"unleashed.html#seasonal\">See it on the UNLEASHED page →</a>"
+      answer: "Smash the Pumpkins is UNLEASHED's Halloween campaign — orange, black and red branding, pumpkin and Halloween graphics, running through October. <a href=\"/unleashed#seasonal\">See it on the UNLEASHED page →</a>"
     },
     {
       keywords: ['bonfire bash', 'bonfire night unleashed'],
-      answer: "Bonfire Bash is UNLEASHED's Bonfire Night format — fire and firework-style graphics, but no real explosives, fireworks or fire inside the attraction. Same approved targets as always. <a href=\"unleashed.html#seasonal\">More on the UNLEASHED page →</a>"
+      answer: "Bonfire Bash is UNLEASHED's Bonfire Night format — fire and firework-style graphics, but no real explosives, fireworks or fire inside the attraction. Same approved targets as always. <a href=\"/unleashed#seasonal\">More on the UNLEASHED page →</a>"
     },
     {
       keywords: ['winter wreckage', 'naughty list', 'christmas unleashed'],
-      answer: "Winter Wreckage is UNLEASHED's Christmas and winter-fair format, with festive lighting and winter graphics — including The Naughty List, where you can write something lighthearted you want to leave behind before you smash it. <a href=\"unleashed.html#seasonal\">More on the UNLEASHED page →</a>"
+      answer: "Winter Wreckage is UNLEASHED's Christmas and winter-fair format, with festive lighting and winter graphics — including The Naughty List, where you can write something lighthearted you want to leave behind before you smash it. <a href=\"/unleashed#seasonal\">More on the UNLEASHED page →</a>"
     },
     {
       keywords: ['unleashed money', 'unleashed help remoteability', 'how does unleashed money help', 'unleashed fundraising', 'mobile food project'],
-      answer: "Income from UNLEASHED helps RemoteAbility create paid work and supported opportunities, and helps fund new social-enterprise projects — including a planned mobile food project intended to eventually help provide hot meals for people experiencing financial hardship. <a href=\"unleashed.html#purpose\">Read more about the purpose →</a>"
+      answer: "Income from UNLEASHED helps RemoteAbility create paid work and supported opportunities, and helps fund new social-enterprise projects — including a planned mobile food project intended to eventually help provide hot meals for people experiencing financial hardship. <a href=\"/unleashed#purpose\">Read more about the purpose →</a>"
     },
     {
       keywords: ['unleashed accessible', 'unleashed accessibility', 'unleashed access'],
@@ -123,7 +123,7 @@
     },
     {
       keywords: ['unleashed cost', 'unleashed price', 'unleashed pricing', 'how much is unleashed', 'how much does unleashed cost', 'cost of unleashed', 'price of unleashed', 'unleashed throws cost'],
-      answer: "3 Throws for £5, 7 Throws for £10, or go all in with Total Unleashed for £20. Pricing may be adjusted for specific events, so check on the day. <a href=\"unleashed.html\">More about UNLEASHED →</a>"
+      answer: "3 Throws for £5, 7 Throws for £10, or go all in with Total Unleashed for £20. Pricing may be adjusted for specific events, so check on the day. <a href=\"/unleashed\">More about UNLEASHED →</a>"
     },
     {
       keywords: ['how many throws', 'unleashed throws', 'number of throws'],
@@ -135,7 +135,7 @@
     },
     {
       keywords: ['archery', 'axe throwing', 'axe throw', 'throw axes', 'bow and arrow unleashed'],
-      answer: "We're developing a supervised archery and axe-throwing lane as a future UNLEASHED experience — professional equipment, a full safety briefing, and staff supervision throughout. It isn't live yet; pricing, age requirements and availability will be confirmed before launch. <a href=\"unleashed.html\">See what's coming next →</a>"
+      answer: "We're developing a supervised archery and axe-throwing lane as a future UNLEASHED experience — professional equipment, a full safety briefing, and staff supervision throughout. It isn't live yet; pricing, age requirements and availability will be confirmed before launch. <a href=\"/unleashed\">See what's coming next →</a>"
     },
     {
       keywords: ['hello', 'hi', 'hey', 'good morning', 'good afternoon'],

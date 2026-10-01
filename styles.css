@@ -4591,6 +4591,16 @@ legend {
   color: var(--un-red-bright);
 }
 
+.unleashed-hero-title {
+  text-align: center;
+  font-size: clamp(1.35rem, 3.2vw, 2rem);
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 0 auto 1.25rem;
+  max-width: 18em;
+  color: var(--un-white);
+}
+
 .unleashed-lede {
   max-width: 720px;
   margin: 0 auto 2.25rem;
@@ -5243,7 +5253,7 @@ legend {
 }
 
 /* -------------------------------------------------------------------------
-   Dedicated /unleashed and /unleashed/book pages — same dark theme applied
+   Dedicated /unleashed and /unleashed-book pages — same dark theme applied
    to the whole page shell, with lighter "paper" panels for dense reading
    content (FAQ, forms) so long-form text stays comfortable to read.
    ------------------------------------------------------------------------- */

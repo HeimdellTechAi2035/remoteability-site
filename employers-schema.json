@@ -3,15 +3,15 @@
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://www.remoteability.org.uk/employers/#webpage",
-      "url": "https://www.remoteability.org.uk/employers",
+      "@id": "https://remoteability.org.uk/employers/#webpage",
+      "url": "https://remoteability.org.uk/employers",
       "name": "Partner With Us | RemoteAbility CIC",
       "description": "Information for employers, referral partners, funders and commissioners who want to partner with RemoteAbility CIC's Pathway to Independence, supporting homeless, disabled and neurodivergent people while delivering measurable social impact.",
-      "isPartOf": { "@id": "https://www.remoteability.org.uk/#website" },
-      "about": { "@id": "https://www.remoteability.org.uk/employers/#service" },
+      "isPartOf": { "@id": "https://remoteability.org.uk/#website" },
+      "about": { "@id": "https://remoteability.org.uk/employers/#service" },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://www.remoteability.org.uk/woman-headset.png"
+        "url": "https://remoteability.org.uk/woman-headset.webp"
       },
       "inLanguage": "en-GB",
       "breadcrumb": {
@@ -21,23 +21,23 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://www.remoteability.org.uk/"
+            "item": "https://remoteability.org.uk/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Partner With Us",
-            "item": "https://www.remoteability.org.uk/employers"
+            "item": "https://remoteability.org.uk/employers"
           }
         ]
       }
     },
     {
       "@type": "Service",
-      "@id": "https://www.remoteability.org.uk/employers/#service",
+      "@id": "https://remoteability.org.uk/employers/#service",
       "name": "Partnership & Remote Services for Employers, Funders and Referral Partners",
-      "provider": { "@id": "https://www.remoteability.org.uk/#org" },
-      "url": "https://www.remoteability.org.uk/employers",
+      "provider": { "@id": "https://remoteability.org.uk/#org" },
+      "url": "https://remoteability.org.uk/employers",
       "serviceType": "Remote Sales and AI Systems services; referral partnerships; funded delivery partnerships",
       "areaServed": {
         "@type": "Country",
@@ -79,7 +79,7 @@
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://www.remoteability.org.uk/employers#enquire",
+        "url": "https://remoteability.org.uk/employers#enquire",
         "availability": "https://schema.org/InStock",
         "priceSpecification": {
           "@type": "PriceSpecification",

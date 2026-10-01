@@ -1,7 +1,7 @@
 // UNLEASHED — shared rendering logic.
 // Reads window.UNLEASHED (see unleashed-data.js, load that file first).
 // Renders into any element carrying a matching data-unleashed attribute,
-// so the homepage, /unleashed and /unleashed/book pages can all reuse it
+// so the homepage, /unleashed and /unleashed-book pages can all reuse it
 // just by including both scripts and adding container elements.
 
 (function () {
