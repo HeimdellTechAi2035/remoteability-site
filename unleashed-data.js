@@ -66,15 +66,15 @@
         netlifyFormName: 'unleashed-event-enquiry'
       },
 
-      // Real pricing, confirmed by RemoteAbility — edit here to update everywhere.
+      // Real pricing, confirmed by RemoteAbility (2 Oct 2026): £20 per person.
+      // Edit here to update everywhere. Keep the Offer in unleashed.html in sync.
       pricing: {
         currency: '£',
         options: [
-          { label: '3 Throws', price: 5 },
-          { label: '7 Throws', price: 10 },
-          { label: 'Total Unleashed', price: 20 }
+          { label: 'Per person', price: 20 }
         ]
       },
+      minAge: 16,
 
       // Structure spec — confirmed dimensions from the approved design.
       structure: {
@@ -86,19 +86,19 @@
         note: 'Customers throw from outside the barrier line.'
       },
 
-      ageInfo: 'Safe for all ages — under 12s must be supervised by an adult.',
+      ageInfo: 'Ages 16+ only. £20 per person.',
 
       checklist: [
         '3 Smash Lanes',
         'Safe & Secure',
-        'Fun For Everyone',
+        'Ages 16+',
         'Raising Money',
         'Creating Jobs',
         'Feeding People'
       ],
 
       howItWorks: [
-        { title: 'Choose Your Throws', body: 'Pick 3, 7, or go all in with Total Unleashed.' },
+        { title: 'Pay Per Person', body: '£20 per person. Ages 16+.' },
         { title: 'Take Your Place', body: 'Step up behind the throwing line.' },
         { title: 'Throw & Smash', body: 'Throw the ball and smash the target.' },
         { title: 'Rack Up Points', body: 'Score points and have fun doing it.' },
@@ -114,7 +114,7 @@
         'Fully mobile — built to travel & perform',
         'Maximum public safety',
         'Weatherproof & built for outdoor events',
-        'Safe for all ages (under 12s with supervision)'
+        'Ages 16+ only'
       ],
 
       perfectFor: [
@@ -148,8 +148,8 @@
         season: 'Late December / January',
         months: ['December', 'January'],
         tagline: 'LEAVE IT BEHIND.',
-        shortDescription: 'Write down what you want to leave behind from last year, then take your throws.',
-        fullDescription: 'New Year Unleashed is UNLEASHED’s New Year format. Participants can write something they want to leave behind from the previous year on an approved disposable target or card, then take their throws. It’s entertainment, not therapy — just a fun, physical way to mark a fresh start.',
+        shortDescription: 'Write down what you want to leave behind from last year, then smash it.',
+        fullDescription: 'New Year Unleashed is UNLEASHED’s New Year format. Participants can write something they want to leave behind from the previous year on an approved disposable target or card, then smash it. It’s entertainment, not therapy — just a fun, physical way to mark a fresh start.',
         image: null,
         status: 'seasonal',
         featured: true,
@@ -284,7 +284,7 @@
         months: ['November', 'December'],
         tagline: 'GET IT OFF YOUR CHEST.',
         shortDescription: 'Write something lighthearted you want on the Naughty List, then smash it.',
-        fullDescription: 'The Naughty List runs as part of Winter Wreckage. Participants can write something humorous they want to put on the Naughty List — Monday mornings, bills, bad habits, the old year — then take their throws. Kept playful; never used to target real, identifiable people.',
+        fullDescription: 'The Naughty List runs as part of Winter Wreckage. Participants can write something humorous they want to put on the Naughty List — Monday mornings, bills, bad habits, the old year — then smash it. Kept playful; never used to target real, identifiable people.',
         image: null,
         status: 'seasonal',
         featured: false,
@@ -354,12 +354,7 @@
       {
         id: 'how-much',
         q: 'How much does it cost?',
-        a: '3 Throws for £5, 7 Throws for £10, or go all in with Total Unleashed for £20. Pricing may be adjusted for specific events — check on the day.'
-      },
-      {
-        id: 'how-many-throws',
-        q: 'How many throws do I get?',
-        a: 'Choose your package: 3 Throws, 7 Throws, or Total Unleashed for the full experience.'
+        a: '£20 per person. Pricing may be adjusted for specific events — check on the day.'
       },
       {
         id: 'what-do-i-throw',
@@ -372,9 +367,9 @@
         a: 'Approved smashable targets set up on target pedestals inside a staff-only, contained target area — never anything you bring yourself.'
       },
       {
-        id: 'children',
-        q: 'Can children participate?',
-        a: 'Yes — UNLEASHED is safe for all ages, but under 12s must be supervised by an adult at all times.'
+        id: 'age-limit',
+        q: 'Is there an age limit?',
+        a: 'Yes. UNLEASHED is for ages 16 and over. Under-16s can\'t take part.'
       },
       {
         id: 'accessible',
