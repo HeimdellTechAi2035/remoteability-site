@@ -47,7 +47,7 @@
     },
     {
       keywords: ['contact', 'email', 'phone number', 'call you', 'get in touch', 'reach you'],
-      answer: "General enquiries: <a href=\"mailto:contact@remoteability.org.uk\">contact@remoteability.org.uk</a><br>Safeguarding: <a href=\"mailto:safeguarding@remoteability.org.uk\">safeguarding@remoteability.org.uk</a><br>Partnerships: <a href=\"mailto:outreach@remoteability.org.uk\">outreach@remoteability.org.uk</a><br>Phone: <a href=\"tel:+447418008279\">+44 7418 008279</a><br>We aim to respond within 2 working days (24 hours for urgent safeguarding concerns). <a href=\"contact.html\">Full contact page →</a>"
+      answer: "General enquiries: <a href=\"mailto:contact@remoteability.org.uk\">contact@remoteability.org.uk</a><br>Safeguarding: <a href=\"mailto:safeguarding@remoteability.org.uk\">safeguarding@remoteability.org.uk</a><br>Partnerships: <a href=\"mailto:outreach@remoteability.org.uk\">outreach@remoteability.org.uk</a><br>Phone: <a href=\"tel:+447440412964\">+44 7440 412964</a><br>We aim to respond within 2 working days (24 hours for urgent safeguarding concerns). <a href=\"contact.html\">Full contact page →</a>"
     },
     {
       keywords: ['safeguarding', 'abuse', 'worried about someone', 'report a concern', 'unsafe'],
