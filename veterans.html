@@ -1,15 +1,209 @@
 <!doctype html>
-<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Veterans Support Network | RemoteAbility CIC</title><meta name="description" content="RemoteAbility CIC is developing a veterans-first UK support network connecting former service personnel with housing, mental health, financial guidance, employment and enterprise pathways.">
-<link rel="canonical" href="https://remoteability.org.uk/veterans.html"><link rel="icon" type="image/jpeg" href="remoteability-cic-logo.jpg">
-<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="veterans-theme.css">
-<meta property="og:title" content="Veterans Support Network | RemoteAbility CIC"><meta property="og:description" content="Housing, wellbeing, benefits, employment and enterprise pathways for UK veterans."><meta property="og:image" content="https://remoteability.org.uk/veterans-housing-support.svg">
-</head><body><div class="page-shell"><div class="flag-topbar"></div><div class="bg-orbit"></div>
-<header><div class="container nav-bar"><div class="brand"><a href="index.html" style="display:flex;align-items:center;gap:1rem"><span class="brand-mark"><img src="remoteability-cic-logo.jpg" alt="RemoteAbility CIC"></span><span class="brand-flag" aria-hidden="true"></span></a></div>
-<nav class="nav-links" id="navLinks" aria-label="Main navigation"><a href="index.html">Home</a><a href="veterans.html" class="active" aria-current="page">🇬🇧 Veterans</a><a href="programmes.html">Our Pathway</a><a href="training.html">Training &amp; Work</a><a href="employers.html">Partners</a><a href="about.html">About Us</a><a href="/unleashed">UNLEASHED</a><a href="contact.html">Contact</a></nav><div class="nav-cta"><a class="btn-primary" href="support.html">I Need Support</a><button type="button" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" onclick="toggleNav()">☰</button></div></div></header>
-<main><section class="veterans-hero"><div class="container veterans-hero-grid"><div><div class="veterans-kicker">Veterans · Families · Support</div><h1>From service to <span>stability and opportunity.</span></h1><p>Whether you're experiencing homelessness, living securely but struggling in other ways, seeking specialist wellbeing support or planning your next career, we want to help you find a practical next step.</p><p>This is a developing network, building partnerships and a coordinated approach across the UK.</p><div class="veterans-actions"><a class="primary" href="support.html">Request support</a><a class="secondary" href="refer.html">Refer someone</a></div></div><figure style="margin:0"><img class="veterans-hero-art" src="veterans-housing-support.svg" width="900" height="700" alt="Illustration of a person facing housing insecurity and another offering practical support."><figcaption class="veterans-image-caption">Illustrative artwork — not an image of an identifiable veteran.</figcaption></figure></div></section>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Veterans Support Network | RemoteAbility CIC</title>
+  <meta name="description" content="Veterans support pathways for housing, wellbeing, benefits, employment and enterprise — alongside all existing RemoteAbility CIC programmes." />
+  <link rel="icon" type="image/jpeg" href="remoteability-cic-logo.jpg" />
+  <link rel="canonical" href="https://remoteability.org.uk/veterans.html" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="veterans-theme.css" />
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="RemoteAbility CIC" />
+  <meta property="og:title" content="Veterans Support Network | RemoteAbility CIC" />
+  <meta property="og:description" content="A four-stage journey — Safe, Stable, Ready, Independent — with active support at every step, not just a phone number." />
+  <meta property="og:image" content="https://remoteability.org.uk/remoteability-cic-logo.jpg" />
+  <meta property="og:url" content="https://remoteability.org.uk/veterans.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Our Pathway to Independence | RemoteAbility CIC" />
+  <meta name="twitter:description" content="A four-stage journey — Safe, Stable, Ready, Independent — with active support at every step, not just a phone number." />
+  <meta name="twitter:image" content="https://remoteability.org.uk/remoteability-cic-logo.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://remoteability.org.uk/programmes/#webpage",
+        "url": "https://remoteability.org.uk/veterans.html",
+        "name": "Our Pathway to Independence | RemoteAbility CIC",
+        "description": "RemoteAbility CIC's four-stage Pathway to Independence, supporting homeless, disabled and neurodivergent people from crisis through to housing, recovery, employment and self-employment: Safe, Stable, Ready, Independent.",
+        "isPartOf": { "@id": "https://remoteability.org.uk/#website" },
+        "about": { "@id": "https://remoteability.org.uk/programmes/#service" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://remoteability.org.uk/remoteability-cic-logo.jpg"
+        },
+        "inLanguage": "en-GB",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://remoteability.org.uk/" },
+            { "@type": "ListItem", "position": 2, "name": "Our Pathway", "item": "https://remoteability.org.uk/veterans.html" }
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://remoteability.org.uk/programmes/#service",
+        "name": "Pathway to Independence",
+        "provider": { "@id": "https://remoteability.org.uk/#org" },
+        "serviceType": "Housing, recovery and employment navigation and support",
+        "areaServed": "United Kingdom",
+        "url": "https://remoteability.org.uk/veterans.html",
+        "description": "RemoteAbility CIC delivers a four-stage pathway supporting homeless, disabled and neurodivergent people from crisis to sustainable independence: Safe, Stable, Ready, Independent.",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "RemoteAbility CIC Pathway Stages",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Safe",
+              "itemOffered": {
+                "@type": "Service",
+                "description": "Immediate contact and assessment, active housing support, and rehabilitation and specialist referrals."
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Stable",
+              "itemOffered": {
+                "@type": "Service",
+                "description": "Support with benefits, identification, digital access, daily routine, confidence and wellbeing."
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Ready",
+              "itemOffered": {
+                "@type": "Service",
+                "description": "Confidence-building, basic skills, and the Six-Week Pathway to Independence Programme covering digital skills, AI and self-employment support."
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Independent",
+              "itemOffered": {
+                "@type": "Service",
+                "description": "Support into accessible employment, freelancing, or home-based business ownership, with ongoing mentoring."
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="page-shell">
+    <div class="flag-topbar"></div>
+    <div class="bg-orbit"></div>
+    <div class="bg-grid"></div>
+    <div class="bg-flag"></div>
+
+    <header>
+      <div class="container nav-bar">
+        <div class="brand">
+          <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 1rem;">
+            <div class="brand-mark">
+              <img src="remoteability-cic-logo.jpg" alt="RemoteAbility CIC Logo" />
+            </div>
+            <div class="brand-flag" aria-hidden="true"></div>
+          </a>
+        </div>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="veterans.html" class="active" aria-current="page">🇬🇧 Veterans</a>
+          <a href="programmes.html">Our Pathway</a>
+          <a href="training.html">Training & Work</a>
+          <a href="employers.html">Partner With Us</a>
+          <a href="about.html">About Us</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+          <a href="/unleashed">💥 UNLEASHED</a>
+        </nav>
+        <div class="nav-cta">
+          <a href="refer.html" style="text-decoration: none;">
+            <button type="button" class="btn-outline">
+              <span class="cta-label-full">Refer Someone</span><span class="cta-label-short">Refer</span>
+            </button>
+          </a>
+          <a href="support.html" style="text-decoration: none;">
+            <button type="button" class="btn-primary">
+              <span class="cta-label-full">I Need Support</span><span class="cta-label-short">Support</span>
+            </button>
+          </a>
+          <button type="button" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" onclick="toggleNav()">
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main><section class="veterans-hero veterans-subpage-hero"><div class="container veterans-hero-grid"><div><div class="veterans-kicker">Veterans · Families · Support</div><h1>From service to <span>stability and opportunity.</span></h1><p>Whether you're experiencing homelessness, living securely but struggling in other ways, seeking specialist wellbeing support or planning your next career, we want to help you find a practical next step.</p><p>This is a developing network, building partnerships and a coordinated approach across the UK.</p><div class="veterans-actions"><a class="primary" href="support.html">Request support</a><a class="secondary" href="refer.html">Refer someone</a></div></div><figure style="margin:0"><img class="veterans-hero-art" src="https://images.pexels.com/photos/13567846/pexels-photo-13567846.jpeg?auto=compress&cs=tinysrgb&w=1200" width="1200" height="800" alt="Stock photograph representing housing insecurity. The photographed person is not identified as a veteran." loading="eager"><figcaption class="veterans-image-caption">Photograph: Elliot FZ / Pexels. Representative stock imagery, not a confirmed veteran.</figcaption></figure></div></section>
 <section class="remembrance-strip"><div class="container remembrance-inner"><img src="remembrance-flower.svg" alt="Original red remembrance flower illustration" width="92" height="92"><div><strong>Lest We Forget</strong><p>Remembering sacrifice, and supporting the Armed Forces community beyond service.</p></div></div></section>
 <section class="veterans-services"><div class="container"><div class="section-header-center"><div class="section-kicker">How we aim to help</div><h2 class="section-title">Six connected pathways</h2><p class="section-lead">You don't have to fit into one category. Someone may need housing and financial guidance while also wanting help to train or work.</p></div><div class="veterans-services-grid"><article class="veterans-service"><h3>🏠 Housing</h3><p>Find the right local homelessness, housing and tenancy-support routes. In England, specialist veteran homelessness referral services include Op FORTITUDE.</p></article><article class="veterans-service"><h3>🧠 Wellbeing</h3><p>Explore appropriate NHS and specialist services, including Op COURAGE in England, and qualified counselling providers.</p></article><article class="veterans-service"><h3>💷 Benefits &amp; finances</h3><p>Connect with appropriate benefits, pensions and debt-support advisers, without unsafe promises about entitlements.</p></article><article class="veterans-service"><h3>💼 Employment</h3><p>Prepare for civilian work, explore qualifications and connect with employers and training opportunities.</p></article><article class="veterans-service"><h3>🚀 Enterprise</h3><p>Explore self-employment and business startup skills, planning and mentoring.</p></article><article class="veterans-service"><h3>🤝 Community</h3><p>Build supportive relationships and pathways to peer and community activities.</p></article></div><p class="veterans-disclaimer"><strong>Important:</strong> The veterans network is under development and local service capacity varies. We cannot guarantee accommodation, funding, clinical appointments or jobs. In an immediate emergency call 999. If you are homeless or at risk, contact your local council's homelessness team promptly.</p></div></section>
 <section class="veterans-preserve"><div class="container"><h2>All our other RemoteAbility services continue</h2><p>Veterans are becoming our flagship priority. Our original Pathway to Independence, six-week employment training, support for disabled people and neurodivergent people, community and youth skills ambitions, and employer programmes remain part of the wider CIC.</p><div class="veterans-preserve-links"><a href="programmes.html">Our Pathway</a><a href="training.html">Training</a><a href="support.html">General support</a><a href="employers.html">Partner with us</a><a href="contact.html">Contact</a></div></div></section></main>
-<footer style="padding:2.5rem 0;background:#012169;color:#fff"><div class="container"><p style="margin:0"><strong>RemoteAbility CIC</strong> · Supporting veterans and the wider community.</p><p><a href="privacy-policy.html">Privacy Policy</a> · <a href="cookie-policy.html">Cookie Policy</a> · <a href="contact.html">Contact</a></p></div></footer></div>
-<script src="script.js"></script></body></html>
+
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-col footer-address-col">
+          <div class="footer-address">
+              <strong>RemoteAbility CIC</strong><br>
+              Preston, Lancashire<br>
+              +44 7440 412964
+              <div class="footer-map" style="margin-top:1rem;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2360.1613071474053!2d-2.7232390221722746!3d53.733201772404094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b6dcdae432c4b%3A0x1a05610bef3aa719!2sRemoteability%20CIC!5e0!3m2!1sen!2suk!4v1764951996550!5m2!1sen!2suk" width="100%" height="120" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>RemoteAbility CIC</h4>
+          <p>A UK Community Interest Company supporting homeless, disabled and neurodivergent people through housing, recovery, employment and self-employment — from crisis to independence.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="programmes.html">Our Pathway</a>
+            <a href="training.html">Training & Work</a>
+            <a href="employers.html">Partner With Us</a>
+            <a href="about.html">About Us</a>
+            <a href="/unleashed">UNLEASHED</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <div class="footer-links">
+            <a href="support.html">I Need Support</a>
+            <a href="refer.html">Refer Someone</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="cookie-policy.html">Cookie Policy</a>
+            <a href="#" onclick="showCookieBanner(); return false;">Cookie Settings</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <p>
+            Email: <a href="mailto:contact@remoteability.org.uk">contact@remoteability.org.uk</a><br>
+            Safeguarding: <a href="mailto:safeguarding@remoteability.org.uk">safeguarding@remoteability.org.uk</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© 2025–2026 RemoteAbility CIC · Community Interest Company registered in England &amp; Wales, company no. 16817651 · All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="cookie-consent.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
